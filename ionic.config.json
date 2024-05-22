@@ -1,0 +1,7 @@
+{
+    "name": "dentart",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}
