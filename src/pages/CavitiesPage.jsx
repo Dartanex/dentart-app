@@ -18,8 +18,8 @@ export const CavitiesPage = () => {
     return (
         <>
             <Header />
-            <main className="container bg-black/50 backdrop-blur-sm w-11/12 lg:w-3/4 lg:p-16 mt-10 mb-72 md:mt-2 md:mb-20 mx-auto rounded-md p-2">
-                <h1 className="font-bold text-white text-center lg:text-2xl lg:mb-16">Información de caries</h1>
+            <main className="container bg-black/50 backdrop-blur-sm w-11/12 md:h-[70vh] lg:w-3/4 lg:p-16 mt-10 mb-72 md:mt-10 md:mb-10 mx-auto rounded-md p-2">
+                <h1 className="font-bold text-white text-center md:mt-5 lg:text-2xl lg:mb-16">Información de caries</h1>
                 <section className="container mt-5 lg:mx-auto">
                     <button className="inline-flex  rounded-md font-semibold px-2 py-2 text-left w-full gap-2" 
                     onClick={() => { toggleDropdown('dropOne') }}
